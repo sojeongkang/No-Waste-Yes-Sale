@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingRight="10dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/back"
+    tools:context=".activity.CategoryCheckActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:id="@+id/concept_layout"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_concept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="컨셉"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_alcohol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="음주"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="데이트"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_meeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소개팅"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_wedding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="상견례"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="회식(단체)"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="가족모임"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_propose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프로포즈"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/food_layout"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_foods"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="음식종류"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_kfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="한식"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_wfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="양식"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_cfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="중식"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_jfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="일식"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_sfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="분식"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_ffood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="패스트푸드"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_cafe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="카페"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/condition_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="기분.컨디션"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cb_magic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="생리전"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_gold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="황금기"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_diet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="다이어트"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_health"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="몸보신"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_night"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="밤샘"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_sick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="병"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_bulkup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="벌크업"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_rain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="비오는날"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_save_category"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/bt_login"
+        android:shadowColor="#FCFCFC"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="저장"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</LinearLayout>

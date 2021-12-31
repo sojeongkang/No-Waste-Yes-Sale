@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">No Waste Yes Sale</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <color name="bg">#F7C0C0</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
